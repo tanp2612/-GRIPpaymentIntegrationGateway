@@ -1,1 +1,1 @@
-# -GRIPpaymentIntegrationGateway
+# GRIPpaymentIntegrationGateway
