@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>LOVE.SHARE.DONATE</h1>
+            </div>
+            <div class="menu">
+                <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_JrDUTUaSRnBAEa/view" data-text="Donate" data-color="#528FF0" data-size="small">
+                    <script>
+                      (function(){
+                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                        rzp && rzp.init && rzp.init()}})();
+                    </script>
+                  </div>
+
+            </div>
+        </nav>
+
+        <main style="background-image: url(tanvi2.png);">
+            <section>
+                <h1>The More The Merrier</h1>
+                <p>Let us join hands in an attempt to end World Poverty.</p>
+                <h4 id="blink">DONATE FOR OUR CAUSE!!</h4>
+                </section>
+        </main>
+    </header>
+
+    <!-- this one is for the button -->
+    <script type="text/javascript">
+        var blink = document.getElementById("blink");
+        setInterval(function () {
+            blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+        }, 500);
+    </script>
+</body>
+
+</html>
